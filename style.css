@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f5f9ff;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    background-color: white;
+    padding: 12px 0;
+}
+
+.logo{
+    height: 40px;
+}
+
+.nav-link{
+    margin-top: 5px;
+    color: black;
+    font-size: 16px;
+    padding: 0 15px !important;
+}
+
+.nav-link:hover{
+    color: #820bc6;
+}
+
+.sign-in-btn{
+    margin-top: 5px;
+    background-color: #820bc6;
+    padding: 5px 25px;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.breadcrumb-item{
+    color: #820bc6 !important;
+}
+
+.active{
+    color: gray !important;
+}
+
+.main-section-1{
+    background-image: url(./back.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.main-section-overlay-1{
+    background-color: rgba(130, 11, 198, 0.7);
+    border-radius: 15px;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-features{
+    background-color: #1ed660;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 4px;
+}
+
+.header-text{
+    color: white;
+    text-transform: capitalize;
+    font-size: 32px;
+}
+
+.avatar{
+    border-radius: 50%;
+    height: 70px;
+}
+
+.header-name{
+    color: white;
+    font-size: 16px;
+}
+
+.card-1{
+    background-image: url(./a.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    border-radius: 15px;
+}
+
+.card-1-content{
+    background-color: rgba(130, 11, 198, 0.7);
+    border-radius: 15px;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.card-name{
+    color: white;
+    font-size: 14px;
+    padding: 20px 0;
+    text-transform:capitalize;
+}
+
+.card-para{
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.card-date{
+    color: white;
+}
+
+.card{
+    border-radius: 15px;
+    min-height: 450px;
+}
+
+.card-img-top{
+    border-radius: 15px 15px 0 0;
+}
+
+.card-avatar{
+    border-radius: 50%;
+    height: 70px;
+    margin-top: -52px;
+}
+
+.card-next-name{
+    color: gray;
+    font-size: 14px;
+    padding: 20px 0;
+    margin-top: 20px;
+    text-transform:capitalize;
+}
+
+.card-next-para{
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.card-next-date{
+    color: gray;
+}
+
+.page-link{
+    padding: 12px 22px;
+    color: #820bc6;
+    border: none;
+    margin-right: 3px;
+}
+
+.page-link:hover, .active-page{
+    background-color: #820bc6;
+    color: white;
+}
